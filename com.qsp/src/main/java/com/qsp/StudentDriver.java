@@ -13,7 +13,7 @@ public class StudentDriver {
 		
 		BeanFactory bf=new XmlBeanFactory(res);
 		
-		Student student=bf.getBean("student", Student.class);
+		Student student=bf.getBean("stud", Student.class);
 		student.study();
 		
 		
